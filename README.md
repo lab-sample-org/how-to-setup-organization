@@ -1,13 +1,17 @@
 # how-to-setup-organization
 
 
-## 0. Githubアカウントを作成
+## 0.前提条件
 
-TODO:あとで別ファイルに書く
+1. Githubアカウントがある
+2. 基本的なGithubの使い方はわかる
+
+TODO:これを補助するためのドキュメントを別ファイルに書く
 
 
-## 1. Organizationを作成
-<img width="1147" alt="GitHub_Dashboard" src="https://github.com/user-attachments/assets/5af0e658-7c91-4f5e-bdfe-a87ba9865e95" />
+
+## 1.Organizationを作成
+<img alt="GitHub_Dashboard" src="https://github.com/user-attachments/assets/5af0e658-7c91-4f5e-bdfe-a87ba9865e95" />
 
 1. 右上のアイコン > Your organizations
 2. New organization
@@ -15,14 +19,38 @@ TODO:あとで別ファイルに書く
 4. あとは流れに沿えばOK
 
 
-## 2. メンバーの権限設定
 
-### メンバーの権限をいったんReadのみにする
+## 2.メンバーの権限設定
+
+### メンバーの権限をいったんゼロにする
 
 1. Settings > Member privileges
-2. Base permissions を Read に変更
+2. Base permissions を No permission に変更
 
-### 
+### チームを作成する
+
+TODO:
+
+### レポジトリを作成して指定チームにのみ権限を与える
+
+TODO:
+
+
+
+## 全体でのメンバー権限設定
+
+(レポジトリのSettingsではなくOrganizationのSettingsから)
+Settings > Member privileges
+
+title | privilege | assignment
+-- | -- | --
+Base permissions | _ | No permission
+Repository creation | Public | ON
+_ | Private | ON
+Repository ofrking | Allow forking of private repo | OFF
+
+TODO: 上記テーブルの続き
+
 
 
 ## 参考
