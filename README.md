@@ -60,3 +60,4 @@ TODO: 上記テーブルの続き
 - [GitHubセキュリティ Organization運用のベストプラクティス](https://zenn.dev/tmknom/books/github-organization-security/viewer/repositories)
 - [【GitHub】organizationのメンバー権限のユーザがcommitできないように設定する方法](https://qiita.com/enumura1/items/0ba22f541660c7e29372)
 - [Github Organizationおすすめ初期設定](https://tech.cm-group.co.jp/posts/github-organization)
+- [GitHub での大きいファイルについて](https://docs.github.com/ja/repositories/working-with-files/managing-large-files/about-large-files-on-github)
